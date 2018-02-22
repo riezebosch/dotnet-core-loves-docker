@@ -1,0 +1,22 @@
+#technology-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+    height: 100%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+#technology-logos li {
+    width: 100%;
+}
+
+.reveal .heart {
+    color: red;
+}
+
+.reveal table {
+    zoom: 75%;
+    width:100%;
+}

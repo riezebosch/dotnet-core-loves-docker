@@ -1,0 +1,11 @@
+{
+  "name": "dotnet-core-loves-docker",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "kc-serve --theme @riezebosch/my-theme"
+  },
+  "devDependencies": {
+    "@infosupport/kc-serve": "^2.1.3",
+    "@riezebosch/my-theme": "0.0.5"
+  }
+}
