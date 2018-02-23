@@ -26,3 +26,5 @@ REPOSITORY                   |TAG                                |SIZE
 microsoft/windowsservercore  |1709                               |6.2GB
 microsoft/dotnet-framework   |4.7.1-windowsservercore-1709       |7.19GB
 microsoft/dotnet-framework   |3.5-windowsservercore-1709         |8.69GB
+
+note: https://blogs.msdn.microsoft.com/webdev/2017/11/09/creating-a-minimal-asp-net-core-windows-container/
