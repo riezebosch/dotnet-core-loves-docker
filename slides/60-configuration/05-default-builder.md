@@ -1,4 +1,4 @@
-```cs
+<pre><code class="cs" data-trim data-noescape>
 public class Program
 {
   public static void Main(string[] args)
@@ -7,8 +7,8 @@ public class Program
   }
 
   public static IWebHost BuildWebHost(string[] args) =>
-      WebHost.CreateDefaultBuilder(args)
+      WebHost.<mark>CreateDefaultBuilder(args)</mark>
           .UseStartup<Startup>()
           .Build();
 }
-```
+</pre></code>
