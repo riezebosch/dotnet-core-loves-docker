@@ -1,5 +1,5 @@
 ## private feeds
-not supported (yet)
+not native supported (yet?)
 
 note: 
 * no apikey support

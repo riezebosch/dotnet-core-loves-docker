@@ -1,3 +1,4 @@
+the cool (future) way
 <pre><code class="cs" data-trim data-noescape>
 var builder = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json")
@@ -14,5 +15,3 @@ var configuration = builder.Build();
 * [package](https://dotnet.myget.org/feed/dotnet-core/package/nuget/Microsoft.Extensions.Configuration.DockerSecrets)
 
 </small>
-
-note: http://www.jamessturtevant.com/posts/Acessing-Docker-Swarm-Secrets-From-ASPNET-Core/
