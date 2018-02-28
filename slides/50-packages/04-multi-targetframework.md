@@ -1,4 +1,11 @@
-multi-target
+### cross framework compatible
 ```xml
-<TargetFrameworks>netcoreapp2.0;net471</TargetFrameworks>
+<TargetFrameworks>netstandard2.0;net35</TargetFrameworks>
+```
+
+framework compatible code
+```cs
+#if NET35
+    [System.Serializable]
+#endif
 ```

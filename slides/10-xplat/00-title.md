@@ -1,5 +1,5 @@
 # xplat
-
+cross platform
 --
 
 * ![windows](img/xplat/windows.svg)
@@ -7,3 +7,5 @@
 * ![apple](img/xplat/apple.svg)
 
 <!-- .element id="technology-logos" -->
+
+note: kostenaspect
