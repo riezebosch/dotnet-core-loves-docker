@@ -1,8 +1,8 @@
+### 2nd round of trimming
+
 ```shell
-dotnet new nuget
+dotnet add package ILLink.Tasks -Version 0.1.4-preview-981901
 dotnet publish /p:ShowLinkerSizeComparison=true
 ```
 
-```xml
-<add key="dotnet-core" value="https://dotnet.myget.org/F/dotnet-core/api/v3/index.json" />
-```
+<small>feed: https://dotnet.myget.org/F/dotnet-core/api/v3/index.json</small>

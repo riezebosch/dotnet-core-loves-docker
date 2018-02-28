@@ -1,3 +1,4 @@
+### trimming
 ```shell
 dotnet add reference Microsoft.Packaging.Tools.Trimming -v 1.1.0-preview1-25818-01
 dotnet build /p:TrimUnusedDependencies=true

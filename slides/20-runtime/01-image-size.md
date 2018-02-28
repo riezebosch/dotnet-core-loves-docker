@@ -1,23 +1,23 @@
 REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|-----:
 microsoft/nanoserver         |1709                               |312MB
-↳ microsoft/dotnet             |2.0.5-runtime-nanoserver-1709      |379MB
+↳ microsoft/dotnet           |2.0.5-runtime-nanoserver-1709      |+67MB
 
 --
 
 REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|------:
 debian                       |stretch                            |158MB
-↳ microsoft/dotnet             |2.0-runtime-deps-stretch           |224MB
-↳ microsoft/dotnet             |2.0.5-runtime-stretch              |298MB
+↳ microsoft/dotnet           |2.0-runtime-deps-stretch           |+66MB
+↳ microsoft/dotnet           |2.0.5-runtime-stretch              |+74MB
 
 --
 
 REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|------:
 alpine                       |latest                             |6.55MB
-↳ microsoft/dotnet-nightly     |2.1-runtime-deps-alpine            |28.1MB
-↳ microsoft/dotnet-nightly     |2.1-runtime-alpine                 |111MB
+↳ microsoft/dotnet-nightly   |2.1-runtime-deps-alpine            |+22MB
+↳ microsoft/dotnet-nightly   |2.1-runtime-alpine                 |+83MB
 
 --
 
