@@ -15,3 +15,9 @@ var configuration = builder.Build();
 * [package](https://dotnet.myget.org/feed/dotnet-core/package/nuget/Microsoft.Extensions.Configuration.DockerSecrets)
 
 </small>
+
+note:
+```
+echo "hello from docker secrets" | docker secret create message -
+docker service create --name test --secret message  ${PWD##*/}
+```

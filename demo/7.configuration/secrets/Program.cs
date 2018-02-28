@@ -11,10 +11,15 @@ namespace json
                 .AddJsonFile("appsettings.json")
                 .AddEnvironmentVariables()
                 .AddCommandLine(args)
-                .AddDockerSecrets();
+                .AddDockerSecrets("/run/secrets", true);
 
             var configuration = builder.Build();
-            System.Console.WriteLine(configuration["message"]);
+
+            while (true)
+            {
+                System.Console.WriteLine(configuration["message"]);  
+                System.Threading.Thread.Sleep(TimeSpan.FromSeconds(1));              
+            }
         }
     }
 }
