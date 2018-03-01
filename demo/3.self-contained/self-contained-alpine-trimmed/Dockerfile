@@ -8,7 +8,7 @@ RUN dotnet restore
 
 # copy everything else and build
 COPY . ./
-RUN dotnet publish -c Release -o out -r alpine.3.6-x64
+RUN dotnet publish -c Release -o out -r alpine.3.6-x64 /p:ShowLinkerSizeComparison=true
 
 # build runtime image
 FROM microsoft/dotnet-nightly:2.1-runtime-deps-alpine
