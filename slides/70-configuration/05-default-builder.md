@@ -1,4 +1,3 @@
-just handy (for reference)
 <pre><code class="cs" data-trim data-noescape>
 public class Program
 {
@@ -13,3 +12,4 @@ public class Program
           .Build();
 }
 </pre></code>
+ASP.NET Core 2.x Default Builder

@@ -1,5 +1,5 @@
 ## 7 reasons
-dotnet core ❤ docker
+dotnet core 💕 docker
 
 1. xplat
 1. runtime

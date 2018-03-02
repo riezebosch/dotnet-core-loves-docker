@@ -1,5 +1,5 @@
 ## top highlights
-that show how
+that shows how
 # dotnet core
 is alligned for
 ## containerization

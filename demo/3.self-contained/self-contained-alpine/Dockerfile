@@ -4,7 +4,7 @@ WORKDIR /app
 # copy csproj and restore as distinct layers
 COPY nuget.config ./
 COPY *.csproj ./
-RUN dotnet restore
+RUN dotnet restore -r alpine.3.6-x64
 
 # copy everything else and build
 COPY . ./

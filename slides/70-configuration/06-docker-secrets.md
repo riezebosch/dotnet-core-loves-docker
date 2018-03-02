@@ -1,4 +1,3 @@
-the cool (future) way
 <pre><code class="cs" data-trim data-noescape>
 var builder = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json")

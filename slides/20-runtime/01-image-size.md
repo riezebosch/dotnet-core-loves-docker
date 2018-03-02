@@ -9,7 +9,7 @@ microsoft/dotnet-framework-build  | 4.7.1-windowsservercore-1709 |+2.5GB
 
 --
 
-Windows Image supporting .NET Core
+Windows Image & .NET Core
 
 REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|-----:
@@ -18,7 +18,7 @@ microsoft/nanoserver         |1709                               |312MB
 
 --
 
-Linux Image supporting .NET Core
+Linux Image & .NET Core
 
 REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|------:
@@ -29,7 +29,7 @@ microsoft/dotnet             |2.0-sdk                            |1.75GB
 
 --
 
-Alpine Image supporting .NET Core
+Alpine Image & .NET Core
 
 REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|------:
