@@ -13,3 +13,7 @@ public class Program
             .Build();
 }
 </code></pre>
+
+note:
+https://github.com/dotnet/docs/blob/master/docs/core/deploying/runtime-store.md#aspnet-core-implicit-store
+Runtime Package Store or SDK required (by default)
