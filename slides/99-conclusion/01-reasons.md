@@ -1,5 +1,5 @@
 ## 7 reasons
-why dotnet core just loves docker
+dotnet core ❤ docker
 
 1. xplat
 1. runtime
