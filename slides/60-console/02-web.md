@@ -1,8 +1,8 @@
 ### ASP.NET Core MVC
-```cs
+<pre><code class="cs" data-trim data-noescape>
 public class Program
 {
-    public static void Main(string[] args)
+    <mark>public static void Main(string[] args)</mark>
     {
         BuildWebHost(args).Run();
     }
@@ -12,4 +12,4 @@ public class Program
             .UseStartup<Startup>()
             .Build();
 }
-```
+</code></pre>

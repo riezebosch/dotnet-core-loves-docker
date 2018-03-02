@@ -1,11 +1,12 @@
 # xplat
 cross platform
---
 
-* ![windows](img/xplat/windows.svg)
-* ![linux](img/xplat/linux.svg)
-* ![apple](img/xplat/apple.svg)
+note: 
+where do we come from?
+* developing on windows, deploying on windows
 
-<!-- .element id="technology-logos" -->
+Docker came along, we we're not invited. Initially.
 
-note: kostenaspect
+.NET Full on Windows Server Core only. Really big base image.
+
+

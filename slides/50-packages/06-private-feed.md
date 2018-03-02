@@ -1,5 +1,5 @@
 ## private feeds
-not native supported (yet?)
+restore seems not supported (yet?)
 
 note: 
 * no apikey support

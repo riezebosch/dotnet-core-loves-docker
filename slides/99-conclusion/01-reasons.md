@@ -2,9 +2,9 @@
 why dotnet core just loves docker
 
 1. xplat
-1. slick runtime
+1. runtime
 1. self-contained (is an option)
 1. cli-first
-1. it's all in packages
-1. everything is a console-app
-1. configuration (with builders)
+1. packages
+1. console app's
+1. configuration
