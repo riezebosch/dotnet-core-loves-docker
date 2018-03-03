@@ -25,3 +25,5 @@ RUN C:\TEMP\NDP471-DevPack-ENU.exe /install /quiet /norestart
 
 CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 </code></pre>
+
+<small>Based on [microsoft/dotnet-framework-build](https://store.docker.com/community/images/microsoft/dotnet-framework-build)</small>

@@ -5,7 +5,7 @@ WORKDIR /app
 COPY test.sln ./test.sln
 COPY program/program.csproj ./program/program.csproj
 COPY program.tests/program.tests.csproj ./program.tests/program.tests.csproj
-RUN dotnet restore program && dotnet restore program.tests
+RUN dotnet restore
 
 # copy everything else and build
 COPY . ./

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace self_contained
+namespace multi_stage
 {
     class Program
     {

@@ -7,6 +7,8 @@ microsoft/dotnet-framework   |4.7.1-windowsservercore-1709       |+1GB
 microsoft/dotnet-framework   |3.5-windowsservercore-1709         |+2.5GB
 microsoft/dotnet-framework-build  | 4.7.1-windowsservercore-1709 |+2.5GB
 
+note: look at the old world.
+
 --
 
 Windows Image & .NET Core
@@ -15,6 +17,8 @@ REPOSITORY                   |TAG                                |SIZE
 -----------------------------|-----------------------------------|-----:
 microsoft/nanoserver         |1709                               |312MB
 ↳ microsoft/dotnet           |2.0.5-runtime-nanoserver-1709      |+67MB
+
+note: microsoft worked really hard on nano server
 
 --
 
