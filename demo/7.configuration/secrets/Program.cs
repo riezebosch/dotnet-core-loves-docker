@@ -11,7 +11,7 @@ namespace json
                 .AddJsonFile("appsettings.json")
                 .AddEnvironmentVariables()
                 .AddCommandLine(args)
-                .AddDockerSecrets("/run/secrets", true);
+                .AddDockerSecrets();
 
             var configuration = builder.Build();
 
